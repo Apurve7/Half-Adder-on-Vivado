@@ -1,0 +1,19 @@
+`timescale 1ns / 1ps
+
+module top2(
+
+    input a,b,
+
+    output s,c
+
+    );          /// | - OR , ~ - NOT, ^ -XOR , ~^ -XNOR, ~| -XNOR, ~| -NOR, ~& -NAND
+
+
+
+    assign s = a^b;
+
+    assign c = a&b;
+
+   
+
+endmodule
